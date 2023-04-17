@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Challenge - Desafio 1 Logica</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Decodificador de Texto</h1>
+        </header>
+        <div class="container">
+            <section id="inputs-outputsUser">
+                <label for=""></label>
+                <input type="text" id="texto"
+                    placeholder="Digite seu texto aqui">
+                <form class="botoes">
+                    <input type="button" onclick="encrypt()"
+                        class="botao" id="btn1"
+                        value="Criptografar">
+
+                    <input type="button" onclick="decrypt()" class="botao"
+                        id=" btn2" value="Descriptografar">
+
+                </form>
+
+            </section>
+            <section id="copyUser">
+                <input type="text" id="textcopy"
+                    placeholder="Aqui estara o texto para copiado.">
+                <div class="botoes">
+                    <input type="button" onclick="copiar()" class="botao"
+                        value="Copiar">
+                </div>
+            </section>
+        </div>
+        <footer>
+            <h4>Alura Challenge Oracle - ONE 5</h4>
+            <p>Desafio 1 - Logica</p>
+            <h4>Desenvolvido por @AugustoN9</h4>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Russo+One&display=swap');
+
+:root {
+    --minha-cor-fundo: #A9D18E;
+    --fundo-header-footer: #212121;
+    --minha-fonte-titulo: 'Russo One';
+    --minha-fonte: 'Rajdhani';
+    --minha-imagem-fundo: url("../image/keys.jpg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--minha-fonte);
+    background-image: var(--minha-imagem-fundo);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: var(--fundo-header-footer);
+    color: #fff;
+    font-family: var(--minha-fonte-titulo);
+    text-align: center;
+    padding: .9rem 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    padding: 2%;
+    -background-image: var(--minha-imagem-fundo);
+    -background-repeat: no-repeat;
+    -background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#inputs-outputsUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 66vh;
+    margin-right: 2%;
+    -padding: 1%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 9px;
+    outline: 0;
+    font-family: var(--minha-fonte);
+    font-size: .9rem;
+    text-align: center;
+}
+
+section#copyUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 66vh;
+    background-color: #fff;
+    border-radius: 9px;
+    outline: 0;
+    font-family: var(--minha-fonte);
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+section#inputs-outputsUser input, section#copyUser input {
+    border: none;
+    background: none;
+    width: 80%;
+
+    outline: 0;
+    font-family: var(--minha-fonte);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+section#inputs-outputsUser input {
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+
+section#copyUser input {
+    color: #212121;
+    margin-bottom: 20%;
+}
+
+section#inputs-outputsUser input::placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+.botoes {
+    position: absolute;
+    bottom: 4%;
+}
+
+botao {
+    width: 150px;
+    border-radius: 9px;
+    border: 1px solid white;
+    padding: 6px 0;
+    font: 0.9rem;
+    font-family: var(--minha-fonte);
+    font-weight: bold;
+}
+
+section#inputs-outputsUser input[type="button"], section#copyUser input[type="button"] {
+    width: 150px;
+    border-radius: 9px;
+    border: 1px solid white;
+    padding: 6px 0;
+    font-size: 0.85rem;
+    font-family: var(--minha-fonte);
+    font-weight: bold;
+
+}
+
+section#inputs-outputsUser input[type="button"] {
+    background-color: #fff;
+    color: #212121;
+}
+
+section#copyUser input[type="button"] {
+    background-color: #212121;
+    color: #fff;
+}
+
+footer {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 0;
+    padding-top: 2%;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
