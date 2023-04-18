@@ -41,25 +41,41 @@ function decrypt() {
     document.getElementById("texto").value = decodedString;
 }
 
-
-/*
-var tituloBtn = document.getElementById("btn1").value;
+let tituloBtn = document.querySelector('#btn1');
 
 tituloBtn.addEventListener('click', updateButton);
 
 function updateButton() {
 
-    if (tituloBtn === "Criptografar") {
-        tituloBtn = "Limpar";
+    if (tituloBtn.value === "Criptografar") {
+        tituloBtn.value = "Limpar";
 
     } else {
-        tituloBtn = "Criptografar";
+        tituloBtn.value = "Criptografar";
+    }
+}
+
+let tituloBtn2 = document.querySelector('#btn2');
+
+tituloBtn2.addEventListener('click', updateButton2);
+
+function updateButton2() {
+
+    if (tituloBtn2.value === "Descriptografar") {
+        tituloBtn2.value = "Limpar";
+
+    } else {
+        tituloBtn2.value = "Descriptografar";
     }
 }
 
 function limpa(campo) {
     document.getElementById(campo).value = '';
 }
+
+
+/*
+
 
 function limpatudo() {
     var input = document.getElementById("texto").value;

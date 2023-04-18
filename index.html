@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Alura Challenge - Desafio 1 Logica</title>
         <link rel="stylesheet" href="css/estilo.css">
-        <script src="js/script.js"></script>
+        <script defer src="js/script.js"></script>
     </head>
     <body>
         <header>
@@ -15,15 +15,16 @@
         <div class="container">
             <section id="inputs-outputsUser">
                 <label for=""></label>
-                <input type="text" id="texto"
+                <input type="area" id="texto"
                     placeholder="Digite seu texto aqui">
                 <form class="botoes">
                     <input type="button" onclick="encrypt()"
                         class="botao" id="btn1"
                         value="Criptografar">
 
-                    <input type="button" onclick="decrypt()" class="botao"
-                        id=" btn2" value="Descriptografar">
+                    <input type="button" onclick="decrypt()"
+                        class="botao" id="btn2"
+                        value="Descriptografar">
 
                 </form>
 
