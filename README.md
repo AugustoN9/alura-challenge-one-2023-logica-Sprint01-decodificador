@@ -22,6 +22,7 @@ Além disso, adicionei um botão "Copiar" para facilitar a cópia do texto após
 
 ##  :computer:Tecnologias usada
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60" color="white" />
+src="https://techcrunch.com/wp-content/uploads/2010/07/github-logo.png?w=1390&crop=1"
 
 
             
