@@ -1,5 +1,5 @@
 # alura-challenge-one-2023-logica-Sprint01-decodificador
-# Decodificador de texto
+# :lock:Decodificador de texto
 
 Este é um projeto desenvolvido utilizando tecnolgias web para codificar e decodificar textos utilizando as "chaves" de criptografia abaixo:
 
@@ -11,7 +11,7 @@ A letra "u" é convertida para "ufat".
 
 O projeto funciona somente com letras minúsculas e sem caracteres especiais. O layout foi desenvolvido utilizando o Grid Layout e a responsabilidade foi integrada com media queries.
 
-##  Como usar?
+##:key:  Como usar?
 
 Para utilizar o codificador de texto, basta acessar a página do projeto clicando no link a seguir:
 https://auguston9.github.io/alura-challenge-one-2023-logica-Sprint01-decodificador/
@@ -20,7 +20,7 @@ E digitar o texto que deseja codificar ou decodificar. Após isso, clique no bot
 
 Além disso, adicionei um botão "Copiar" para facilitar a cópia do texto após ser codificado ou decodificado.
 
-##  Tecnologias usada
+##  :computer:Tecnologias usada
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" width="60" height="60" color="white" />
 
 
